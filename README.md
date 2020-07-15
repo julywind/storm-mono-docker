@@ -31,7 +31,7 @@ Kill and rm all docker cache:
 
 Remove all docker image:
 
-- ```docker rmi $(docker images | grep "^ziyunhx" | awk "{print $3}")```
+- ```docker rmi $(docker images | grep "^julywind" | awk "{print $3}")```
 
 ## Building
 
@@ -42,7 +42,7 @@ Remove all docker image:
 Take a look at docker-compose.yml:
 
     ui:
-      image: ziyunhx/storm-ui
+      image: julywind/storm-ui
 	      ports:
 	        - "49080:8080"
 
@@ -84,4 +84,4 @@ Find the forwarded ssh port for the container you wish to connect to (use `docke
 
     $ ssh root@`boot2docker ip` -p $CONTAINER_PORT
 
-The password is 'ziyunhxpass' (from: https://registry.hub.docker.com/u/ziyunhx/base/dockerfile/).
+The password is 'julywindpass' (from: https://registry.hub.docker.com/u/julywind/storm-base/dockerfile/).

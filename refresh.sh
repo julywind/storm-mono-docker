@@ -1,6 +1,6 @@
 #!/bin/bash
 
-docker pull ziyunhx/zookeeper
-docker pull ziyunhx/storm-nimbus
-docker pull ziyunhx/storm-supervisor
-docker pull ziyunhx/storm-ui
+docker pull julywind/zookeeper
+docker pull julywind/storm-nimbus
+docker pull julywind/storm-supervisor
+docker pull julywind/storm-ui
